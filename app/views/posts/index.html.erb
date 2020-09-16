@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Member Posts</h1>
+
+<table>
+  <thead>
+    <tr>
+   <%= render "auth" %>
+      <th>Title</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <%= render "post_auth" %>
+  </tbody>
+</table>
+
+<br>
+<%= render "logic" %>
+<br>
